@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Learning_Java.iml" filepath="$PROJECT_DIR$/.idea/Learning_Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Thực hành hiển thị thời gian/Thực hành hiển thị thời gian.iml" filepath="$PROJECT_DIR$/Thực hành hiển thị thời gian/Thực hành hiển thị thời gian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learning_Javab1.iml" filepath="$PROJECT_DIR$/.idea/Learning_Javab1.iml" />
     </modules>
   </component>
 </project>
