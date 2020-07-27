@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learning_Java.iml" filepath="$PROJECT_DIR$/.idea/Learning_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thực hành_hiển thị thời gian/Thực hành_hiển thị thời gian.iml" filepath="$PROJECT_DIR$/Thực hành_hiển thị thời gian/Thực hành_hiển thị thời gian.iml" />
+    </modules>
+  </component>
+</project>
