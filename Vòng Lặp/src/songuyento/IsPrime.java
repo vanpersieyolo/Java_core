@@ -15,7 +15,7 @@ public class IsPrime {
         }
         if (enterNum >= 2) {
 
-            for (int i = 2; i <= Math.sqrt(enterNum); i++) {
+            for (int i = 2; i <= Math.sqrt(enterNum); i ++) {
                 if (enterNum % i == 0) {
                    check = false;
                    break;
