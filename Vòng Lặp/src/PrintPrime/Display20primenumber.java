@@ -4,20 +4,24 @@ import java.util.Scanner;
 
 public class Display20primenumber {
     public static void main(String[] args) {
-        int soLuong = 0;
-        int number = 2;
+        int count = 0;
+        int number =2;
         boolean check = true;
-        System.out.println("nhập vào sô lượng số nguyên tố cần hiển thị: ");
-        Scanner scanner = new Scanner(System.in);
-        soLuong = scanner.nextInt();
 
-        for (int i = 0; i < soLuong ; i++) {
-            for (int j = 2; j <= Math.sqrt(number) ; j++) {
-                System.out.print(i+"__");
+        while (count < 20){
+            for (int i = 2; i <= Math.sqrt(number); i ++) {
+                if (number % i == 0) {
+                    check = false;
+                }
             }
+            if (check) {
+                System.out.print(number + "__");
+                count++;
+            }
+            check = true;
             number++;
-        }
 
+        }
 
     }
 }
