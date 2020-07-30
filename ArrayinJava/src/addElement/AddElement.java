@@ -24,11 +24,11 @@ public class AddElement {
         System.out.println("thêm phần tử số  ");
         int valueadd = scanne.nextInt();
 
-        for (int i = enterTrim; i <b.length-1 ; i++) {
-            b[i + 1] = b[i];
-            b[i] = valueadd;
 
+        for (int i = b.length-1; i > enterTrim; i--) {
+            b[i] = b[i-1];
         }
+        b[enterTrim] = valueadd;
 
         for (int i = 0; i < b.length ; i++) {
             System.out.print(b[i] +" ");
