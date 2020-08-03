@@ -31,7 +31,7 @@ public class Application {
         }
     }
     public Student findStudent(String b){
-        Student student =new Student();
+        Student student = new Student();
         for (Student a : students) {
             String c = a.getName();
                 if (c.equals(b)){
