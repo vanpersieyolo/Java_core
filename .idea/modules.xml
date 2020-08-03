@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Acces_Modifier/Abstrack_and_Interface.iml" filepath="$PROJECT_DIR$/Acces_Modifier/Abstrack_and_Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstrack_and_interface/Abstrack_and_interface.iml" filepath="$PROJECT_DIR$/Abstrack_and_interface/Abstrack_and_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Acces_Modifier/Acces_Modifier.iml" filepath="$PROJECT_DIR$/Acces_Modifier/Acces_Modifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayinJava/ArrayinJava.iml" filepath="$PROJECT_DIR$/ArrayinJava/ArrayinJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
