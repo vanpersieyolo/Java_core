@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Show {
+public class ShowNextDay {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhập vào ngày: ");
