@@ -6,11 +6,14 @@
       <module fileurl="file://$PROJECT_DIR$/Abstrack_and_interface/Abstrack_and_interface.iml" filepath="$PROJECT_DIR$/Abstrack_and_interface/Abstrack_and_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Acces_Modifier/Acces_Modifier.iml" filepath="$PROJECT_DIR$/Acces_Modifier/Acces_Modifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayinJava/ArrayinJava.iml" filepath="$PROJECT_DIR$/ArrayinJava/ArrayinJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CleanAndRefatoring/CleanAndRefatoring.iml" filepath="$PROJECT_DIR$/CleanAndRefatoring/CleanAndRefatoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExcerciseTDD/ExcerciseTDD.iml" filepath="$PROJECT_DIR$/ExcerciseTDD/ExcerciseTDD.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ke_Thua/Ke_Thua.iml" filepath="$PROJECT_DIR$/Ke_Thua/Ke_Thua.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Learning_Javab1.iml" filepath="$PROJECT_DIR$/.idea/Learning_Javab1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vòng Lặp/Loop.iml" filepath="$PROJECT_DIR$/Vòng Lặp/Loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object/Object.iml" filepath="$PROJECT_DIR$/Object/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practive_TDD/Practive_TDD.iml" filepath="$PROJECT_DIR$/Practive_TDD/Practive_TDD.iml" />
     </modules>
   </component>
 </project>
