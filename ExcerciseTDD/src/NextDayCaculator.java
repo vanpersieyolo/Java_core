@@ -1,138 +1,89 @@
-public class NextDayCaculator{
-    int enterDay = 1;
-    int enterMonth = 1;
-    int enterYear = 1;
+public class NextDayCaculator {
 
-    public NextDayCaculator(int enterDay, int enterMonth,int enterYear){
-      this.enterDay = enterDay;
-      this.enterMonth = enterMonth;
-      this.enterYear = enterYear;
-    }
-
-
-    //    public static void getEnterMonth(int enterMonth){
-//        boolean monthinput = enterMonth < 12;
-//        boolean monthinput1 = enterMonth > 1;
-//        if (monthinput && monthinput1){
-//            enterMonth += 1;
-//        }else if(enterMonth == 12){
-//            enterMonth = 1;
-//        }
-//    }
-    public static void nextDay(int enterDay,int enterMonth,int enterYear){
-        switch (enterMonth) {
+    public static String nextDay(int day, int month, int year) {
+        switch (month) {
             case 1, 3, 5, 7, 8, 10, 12:
-                if (enterDay < 31 && enterDay > 0) {
-                    enterDay += 1;
-                    System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                    break;
+                if (day < 31 && day > 0) {
+                    day += 1;
+                    return day + "/" + month + "/" + year;
                 }
-                if (enterDay == 31) {
-                    if (enterMonth == 12) {
-                        enterYear += 1;
-                        enterMonth = 1;
-                        enterDay = 1;
+                if (day == 31) {
+                    if (month == 12) {
+                        year += 1;
+                        month = 1;
+                        day = 1;
                     } else {
-                        enterMonth += 1;
-                        enterDay = 1;
+                        month += 1;
+                        day = 1;
                     }
-                    System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                    break;
+                    return day + "/" + month + "/" + year;
                 }
-                if (enterDay > 31 || enterDay < 0) {
-                    System.out.println("không có ngày xác định 1");
+                if (day > 31 || day < 0) {
+                   return ("Error");
                 }
                 break;
             case 4, 6, 9, 11:
-                if (enterDay < 30 && enterDay > 0) {
-                    enterDay += 1;
-                    System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                    break;
+                if (day < 30 && day > 0) {
+                    day += 1;
+                    return day + "/" + month + "/" + year;
                 }
-                if (enterDay == 30) {
-                    enterMonth += 1;
-                    enterDay = 1;
-                    System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                    break;
+                if (day == 30) {
+                    month += 1;
+                    day = 1;
+                    return day + "/" + month + "/" + year;
                 }
-                if (enterDay > 30 || enterDay < 0) {
-                    System.out.println("không có ngày xác định");
+                if (day > 30 || day < 0) {
+                    return ("Error");
                 }
                 break;
             case 2:
-                if (enterYear % 4 == 0) {
-                    if (enterYear % 100 != 0) {
-                        if (enterDay < 29 && enterDay > 0) {
-                            enterDay += 1;
-                            System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                            break;
+                if (year % 4 == 0) {
+                    if (year % 100 != 0) {
+                        if (day < 29 && day > 0) {
+                            day += 1;
+                            return day + "/" + month + "/" + year;
                         }
-                        if (enterDay == 29) {
-                            enterMonth += 1;
-                            enterDay = 1;
-                            System.out.println(" đây là năm nhuận nên sẽ có 29 ngày của tháng 2 !");
-                            System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                            break;
+                        if (day == 29) {
+                            month += 1;
+                            day = 1;
+                            return day + "/" + month + "/" + year;
                         }
-                        if (enterDay > 29 || enterDay < 0) {
-                            System.out.println("không có ngày xác định");
+                        if (day > 29 || day < 0) {
+                            return ("Error");
                         }
                         break;
-                    } else if (enterYear % 400 == 0) {
-                        if (enterDay < 29 && enterDay > 0) {
-                            enterDay += 1;
-                            System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                            break;
+                    } else if (year % 400 == 0) {
+                        if (day < 29 && day > 0) {
+                            day += 1;
+                            return day + "/" + month + "/" + year;
                         }
-                        if (enterDay == 29) {
-                            enterMonth += 1;
-                            enterDay = 1;
-                            System.out.println(" đây là năm nhuận nên sẽ có 29 ngày của tháng 2 !");
-                            System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                            break;
+                        if (day == 29) {
+                            month += 1;
+                            day = 1;
+                            return day + "/" + month + "/" + year;
                         }
-                        if (enterDay > 29 || enterDay < 0) {
-                            System.out.println("không có ngày xác định");
+                        if (day > 29 || day < 0) {
+                            return ("Error");
                         }
                         break;
-                    } else {
-
-                        if (enterDay < 28 && enterDay > 0) {
-                            enterDay += 1;
-                            System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                            break;
-                        }
-                        if (enterDay == 28) {
-                            enterMonth += 1;
-                            enterDay = 1;
-                            System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                            break;
-                        }
-                        if (enterDay > 28 || enterDay < 0) {
-                            System.out.println("không có ngày xác định");
-                            break;
-                        }
                     }
                 } else {
+                    if (day < 28 && day > 0) {
+                        day += 1;
+                        return day + "/" + month + "/" + year;
 
-                    if (enterDay < 28 && enterDay > 0) {
-                        enterDay += 1;
-                        System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                        break;
                     }
-                    if (enterDay == 28) {
-                        enterMonth += 1;
-                        enterDay = 1;
-                        System.out.println("ngày tiếp theo là: " + enterDay + " / " + enterMonth + " / " + enterYear);
-                        break;
+                    if (day == 28) {
+                        month += 1;
+                        day = 1;
+                        return day + "/" + month + "/" + year;
                     }
-                    if (enterDay > 28 || enterDay < 0) {
-                        System.out.println("không có ngày xác định");
-                        break;
+                    if (day > 28 || day < 0) {
+                        return ("Error");
                     }
                 }
         }
-
+      return day + "/" + month + "/" + year;
     }
 }
 
