@@ -17,7 +17,11 @@
       <module fileurl="file://$PROJECT_DIR$/Vòng Lặp/Loop.iml" filepath="$PROJECT_DIR$/Vòng Lặp/Loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/Object/Object.iml" filepath="$PROJECT_DIR$/Object/Object.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practive_TDD/Practive_TDD.iml" filepath="$PROJECT_DIR$/Practive_TDD/Practive_TDD.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Query/Query.iml" filepath="$PROJECT_DIR$/Query/Query.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/TestSkill/TestSkill.iml" filepath="$PROJECT_DIR$/TestSkill/TestSkill.iml" />
+>>>>>>> c217f4c0d6471af9d93746f3278e841f48745d89
     </modules>
   </component>
 </project>
